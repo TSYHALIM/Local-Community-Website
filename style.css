@@ -1,0 +1,58 @@
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: rgb(6, 23, 70);
+}
+.top-bar ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.top-bar li{
+    margin: 0px 5px;
+}
+
+
+.top-bar a{
+    color:aqua ;
+}
+
+
+.top-bar a:hover{
+    color: beige ;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.picture{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:navy;
+}
+
+li{
+    padding-left: 2rem;
+}
